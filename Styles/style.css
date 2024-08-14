@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.maima-font{
+  font-family: 'Miama', sans-serif;
+  font-weight: 300;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+/* shared styles */
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+.display-flex{
+  display: flex;
+}
+.brand-text-color{
+  color: orangered;
+}
+
+.dark-extra{
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    /* color: black; */
+}
+/* dark-01 */
+.section-title,.dark-01{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  /* color: black; */
+}
+/* dark-02 */
+.card-title,.dark-02{
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.842);
+}
+/* dark-03 */
+.section-description,.dark-03{
+  color: rgba(255, 255, 255, 0.678);
+  font-size: 0.7rem;
+}
+
+
+.bg-dark{
+  /* background: black; */
+  margin: 0;
+  padding: 50px 150px 0px;
+}
+.hero-background{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17), rgb(58, 58, 58),black);
+}
+.change-habit-background{
+  background: black;
+  margin: 0;
+  padding: 0px 150px 0px;
+}
+
+
+.button-primary{
+color:white;
+font-weight: 600;
+text-align:center;
+background-color: orangered;
+border-radius: 100px;
+border: none;
+}
+/* header,.run-easily{ 
+  margin: 0;
+  padding: 50px 150px 0px;
+} */
+
+/* header section styles */
+
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links, .nav-button{
+  gap: 30px;
+}
+.nav-button{
+  padding: 5px 10px;
+}
+ul>li{
+  list-style: none;
+}
+.nav-link{
+ text-decoration: none;
+}
+.banner{
+  gap: 200px;
+}
+.banner-content{
+  max-width: 500px;
+}
+
+.banner-title{
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+  /* color: black; */
+}
+.banner-description{
+  color: rgba(255, 255, 255, 0.733);
+  font-size: 0.8rem;
+}
+
+.button-container{
+  gap: 8px;
+}
+.join-button{
+  padding: 5px 20px;
+}
+.download{
+  color:rgba(255, 255, 255, 0.884);
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.863);
+  border-radius: 100px;
+  padding: 7px 23px;
+}
+
+.nav-links,.nav-link, .nav-button{
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.842);
+  /* color: black; */
+}
+
+.video-tutorial{
+  color:rgba(255, 255, 255, 0.726);
+  background-color:  rgba(48, 48, 48, 0.432);
+  padding: 10px 20px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+  position: relative;
+  top: -150px;
+  left: -60px;
+
+}
+#dot{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background:rgb(230, 83, 60);
+}
+#number1{
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: white;
+}
+.workout-videos{
+  color:rgba(255, 255, 255, 0.726);
+  background-color:  rgba(48, 48, 48, 0.54);
+  padding: 10px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  position: relative;
+  right: -75px;
+  top: -430px;
+}
+#number2{
+  font-size: 1.5rem;
+  color:white;
+  font-weight: 800;
+  
+}
+/* Change your habits section starts */
+.cards-container{
+  justify-content: center;
+  align-items: center;
+}
+
+.card img{
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.526);
+  width: 50%;
+ 
+}
+.card{
+  height: 37.5rem;
+  width: 15rem;
+  gap: 150px;
+}
+.section-title,.section-description,.card-title{
+  text-align: center;
+}
+.section-description{
+  margin-bottom: 50px;
+}
+/* run easily section starts */
+.run-easily{
+ background: rgb(34, 34, 34);
+ padding: 150px 190px;
+  
+}
+.join-now-button{
+  padding: 10px 50px;
+}
+.run-image{
+  border-radius: 18px;
+  width: 25%;
+}
+.run-content{
+ text-align: start;
+ margin-right: 200px;
+}
+
+/* bmi container starts */
+.bmi-container{
+  background: rgb(34, 34, 34);
+}
+/* Meet our teams section */
+.team-images{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+.team-images img{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+
+/* footer section starts */
+
+footer{
+  margin: 0;
+  padding: 50px 150px 130px;
+  background-color: rgb(34, 34, 34);
+}
+.get-started{
+  text-align: start;
+}
+footer ul>li{
+  list-style: none;
+  margin-bottom: 10px;
+  margin-left: 0;
+  text-align: start;
+}
+footer li>a{
+  text-decoration: none;
+}
+footer .opacity{
+  opacity: 0.65;
+  font-weight: 500;
+}
