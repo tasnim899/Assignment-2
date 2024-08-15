@@ -6,10 +6,30 @@
     .team-images{
         grid-template-columns: 1fr;
     }
-    footer{
+     footer{
         padding-left: 10px;
-        padding-right: 10px;
     }
+    .bg-dark{
+        padding-left: 20px;
+    }
+    .banner{
+        gap: 30px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-title, .banner-description{
+        width: 80%;
+    }
+    .banner-image{
+        padding-left: 60px;
+    }
+    /* Change your habits section starts */
+    .cards-container{
+        gap: 20px;
+    }
+
+    /* footer responsive section  */
     .fit, .head{
         width: 100%;
     }

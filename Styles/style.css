@@ -202,11 +202,16 @@ backdrop-filter: blur(20px);
   margin-bottom: 50px;
 }
 /* run easily section starts */
-.run-easily{
- background: rgb(34, 34, 34);
+.run-extra-easily{
+  background: rgb(0, 0, 0);
  padding: 150px 190px;
-  
-}
+  }
+
+  .run-easily{
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 20px 10px 10px 30px;
+  }
 .join-now-button{
   padding: 10px 50px;
 }
@@ -216,7 +221,7 @@ backdrop-filter: blur(20px);
 }
 .run-content{
  text-align: start;
- margin-right: 200px;
+ margin-right: 350px;
 }
 
 /* bmi container starts */
@@ -226,21 +231,38 @@ backdrop-filter: blur(20px);
 /* Meet our teams section */
 .image{
   width: 50%;
-  height:50%;
-  object-fit: cover;
+  height: 100%;
+}
+.team{
+  background:rgb(0, 0, 0);
 }
 .team-images{
+  background:rgb(34, 34, 34);
+  padding: 150px 190px;
+  border-radius: 18px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
-  
-}
-.team-images img{
+  }
+  .name{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+  }
+  .designation{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.521);
+  }
+  .subtitle{
+    text-align: center;
+  }
+/* .team-images img{
   height: 200px;
   width: 200px;
   border-radius: 10px;
   margin-right: 5px;
-}
+} */
 
 
 /* footer section starts */
