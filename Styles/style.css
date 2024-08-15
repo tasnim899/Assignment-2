@@ -18,10 +18,7 @@
 
 
 /* shared styles */
-/* *{
-  margin: 0;
-  padding: 0;
-} */
+
 .display-flex{
   display: flex;
 }
@@ -227,9 +224,15 @@ backdrop-filter: blur(20px);
   background: rgb(34, 34, 34);
 }
 /* Meet our teams section */
+.image{
+  width: 50%;
+  height:50%;
+  object-fit: cover;
+}
 .team-images{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
   
 }
 .team-images img{
@@ -244,11 +247,30 @@ backdrop-filter: blur(20px);
 
 footer{
   margin: 0;
-  padding: 50px 150px 130px;
+  padding: 50px 150px 20px;
   background-color: rgb(34, 34, 34);
 }
+.fit{
+  width: 50%;
+  margin-right: 102px;
+}
+.get-started1{
+  margin-right: 100px;
+}
+
 .get-started{
-  text-align: start;
+  display: inline;
+  
+}
+.head{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+.menu{
+  display: inline;
+  text-align: left;
 }
 footer ul>li{
   list-style: none;
@@ -263,3 +285,12 @@ footer .opacity{
   opacity: 0.65;
   font-weight: 500;
 }
+.reserved{
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.line{
+ border-color: rgba(255, 255, 255, 0.1);
+}
+

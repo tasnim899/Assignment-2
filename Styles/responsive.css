@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+
+    .navbar, .banner, .cards-container, .run-easily, .bmi-calculator, .footer-columns{
+        flex-direction: column;
+    }
+    .team-images{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .fit, .head{
+        width: 100%;
+    }
+}
