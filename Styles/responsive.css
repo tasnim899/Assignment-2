@@ -28,8 +28,22 @@
     .cards-container{
         gap: 20px;
     }
+    .change-habit-background{
+        padding: 0px 20px 0px;
+    }
+/* run easily section starts */
 
+.run-extra-easily{
+    padding: 20px 20px;
+}
+.run-content{
+    margin: 0 px;
+}
+.run-image{
+    width: 100%;
+}
     /* footer responsive section  */
+
     .fit, .head{
         width: 100%;
     }
